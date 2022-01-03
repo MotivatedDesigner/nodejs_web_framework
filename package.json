@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "a nodejs web framework focused on perfermence &amp; security for learing purposes",
   "main": "main.js",
+  "type": "module",
   "scripts": {
     "start": "node main.js",
     "dev": "nodemon main.js",
