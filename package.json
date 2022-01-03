@@ -1,0 +1,25 @@
+{
+  "name": "xthunder_web_framework",
+  "version": "1.0.0",
+  "description": "a nodejs web framework focused on perfermence &amp; security for learing purposes",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js",
+    "test": "nodemon main.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MotivatedDesigner/nodejs_web_framework.git"
+  },
+  "author": "Ayoub Elmendoub",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MotivatedDesigner/nodejs_web_framework/issues"
+  },
+  "homepage": "https://github.com/MotivatedDesigner/nodejs_web_framework#readme"
+}
