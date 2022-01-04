@@ -9,7 +9,9 @@
     "dev": "nodemon main.js",
     "test": "nodemon main.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@datastructures-js/priority-queue": "^5.3.0"
+  },
   "devDependencies": {
     "nodemon": "^2.0.15"
   },

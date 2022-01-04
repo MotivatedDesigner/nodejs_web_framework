@@ -1,21 +1,13 @@
-const fowardSlashRegex = /\//gm
-const fowardSlashReplace = `\\/`
-const slotRegex = /:(?:\w+)/gm
-const slots = []
-let m
 
 
-while ((m = slotRegex.exec(path)) !== null) {
-    if (m.index === slotRegex.lastIndex)
-      slotRegex.lastIndex++;
-    m.forEach( (match) => slots.push(match.split(':')[1]) )
-}
+const biddersQueue = new MinPriorityQueue({ priority: route => route.regexPath.length })
 
-slots.forEach( slot => path = path.replace(`:${slot}`, '(\\w+)') )
+biddersQueue.enqueue({regexPath: "1"})
+biddersQueue.enqueue({regexPath: "11"})
+biddersQueue.enqueue({regexPath: "111"})
+biddersQueue.enqueue({regexPath: "1111"})
 
-path = path.replace(fowardSlashRegex, fowardSlashReplace);
+console.log(biddersQueue.toArray())
 
-console.log('path',path)
-console.log('arr',slots)
 
 
