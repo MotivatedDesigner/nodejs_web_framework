@@ -9,6 +9,11 @@
     "dev": "nodemon main.js",
     "test": "nodemon main.js"
   },
+  "imports": {
+    "#Router": "./app/router/Router.js",
+    "#Server": "./app/server/Server.js",
+    "#Middlewares": "./app/middlewares/index.js"
+  },
   "dependencies": {
     "@datastructures-js/priority-queue": "^5.3.0"
   },

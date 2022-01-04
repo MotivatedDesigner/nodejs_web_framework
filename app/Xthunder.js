@@ -1,5 +1,5 @@
 import XthunderRouter from "./Router"
-import XthunderServer from "./Server"
+import XthunderServer from "./server/Server"
 
 export default class Xthunder {
   constructor() {
