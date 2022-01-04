@@ -1,5 +1,3 @@
-import { MaxPriorityQueue } from "@datastructures-js/priority-queue"
-
 export class Route {
   constructor(method, path, handlers) {
     this.method = method
