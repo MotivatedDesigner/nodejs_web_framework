@@ -1,5 +1,5 @@
 import XthunderRouter from "#Router"
-import { reqProcessor } from '#Middleware'
+// import { reqProcessor } from '#Middlewares'
 import http from 'http'
 
 export default class Xthunder {
@@ -16,6 +16,6 @@ export default class Xthunder {
   }
 
   requestListener = (req, res) => {
-    reqProcessor(req, res)
+    console.log(req);
   }
 }
